@@ -3,7 +3,7 @@ Deploying a ELK ( ElasticSearch, LogStash, Kibana Dashboard) stack with filebeat
 
 ### Initial Setup
 
-Docker Desktop is setup with Kubernetes.
+Docker Desktop is setup with Kubernetes. [Official Docker Documentation](https://docs.docker.com/desktop/kubernetes/)
 Kubectl is installed.
 Helm package manager is also installed and configured.
 
