@@ -8,3 +8,17 @@ Docker Desktop is setup with Kubernetes.
 Kubectl is installed.
 
 Helm package manager is also installed and configured
+
+---
+
+### Installation
+```
+kubectl create namespace elastic-stack
+kubectl apply -f elasticsearch-ss.yaml
+kubectl get pods -n elastic-stack
+kubectl apply -f logstash-deployment.yaml
+kubectl apply -f filebeat-ds.yaml
+kubectl apply -f kibana-deployment.yaml
+kubectl get pods -n elastic-stack -o wide --watch
+```
+---
